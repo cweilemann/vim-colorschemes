@@ -22,6 +22,7 @@ if has("gui_running")
   hi LineNr guibg=#323232 guifg=#888888
   hi Folded guifg=#f1f3e8 guibg=#444444
   hi Pmenu guibg=#84A7C1
+  hi ColorColumn ctermbg=235 guibg=#2c2d27
 
   "General Colors
   hi Comment guifg=#AEAEAE
