@@ -89,6 +89,7 @@ hi link rubyBlockParameter String
 hi link rubyBlockParameterList Class
 hi link rubyClass Class
 hi link rubyClassVariable Normal
+hi link rubyConditional Class
 hi link rubyConditionalModifier Class
 hi link rubyConstant Constant
 hi link rubyControl Class
