@@ -14,7 +14,7 @@ hi ColorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#242737 gui=
 hi Cursor ctermfg=233 ctermbg=145 cterm=NONE guifg=#0c1021 guibg=#aaabb1 gui=NONE
 hi ErrorMsg ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi Folded ctermfg=145 ctermbg=233 cterm=NONE guifg=#aeaeae guibg=#0c1021 gui=NONE
-hi IncSearch ctermfg=233 ctermbg=77 cterm=NONE guifg=#0c1021 guibg=#DDAAAA gui=NONE
+hi IncSearch ctermfg=233 ctermbg=77 cterm=NONE guifg=#0c1021 guibg=#00D42D gui=NONE
 hi LineNr ctermfg=102 ctermbg=233 cterm=NONE guifg=#82848d guibg=#0c1021 gui=NONE
 hi NonText ctermfg=239 ctermbg=233 cterm=NONE guifg=#494c59 guibg=#0c1021 gui=NONE
 hi Normal ctermfg=231 ctermbg=233 cterm=NONE guifg=#f8f8f8 guibg=#0c1021 gui=NONE
@@ -34,7 +34,7 @@ hi CursorLine ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#242737 gui=N
 hi CursorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#242737 gui=NONE
 hi link Pmenu Function
 hi PmenuSel ctermfg=NONE ctermbg=24 cterm=NONE guifg=NONE guibg=#253b76 gui=NONE
-hi! link Search IncSearch
+hi link Search String
 endif
 
 " Syntax highlighting
@@ -52,9 +52,6 @@ hi Label ctermfg=77 ctermbg=NONE cterm=NONE guifg=#00D42D guibg=NONE gui=NONE
 hi String ctermfg=77 ctermbg=NONE cterm=NONE guifg=#00D42D guibg=NONE gui=NONE
 hi Todo ctermfg=200 ctermbg=NONE cterm=inverse,bold guifg=#CAFE1E guibg=NONE gui=inverse,bold
 hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
-
-hi! link qfFileName DiffChange
-hi! link QuickFixLine DiffChange
 
 hi link Boolean         Constant
 hi link Character       Constant
@@ -83,14 +80,12 @@ hi link Tag Function
 hi link Typedef         Class
 
 " Ruby
-hi link rubyAssertion Function
 hi link rubyBlock Normal
 hi link rubyBlockParameter Class
 hi link rubyBlockParameter String
 hi link rubyBlockParameterList Class
 hi link rubyClass Class
 hi link rubyClassVariable Normal
-hi link rubyConditional Class
 hi link rubyConditionalModifier Class
 hi link rubyConstant Constant
 hi link rubyControl Class
