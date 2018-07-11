@@ -130,6 +130,10 @@ hi link htmlTagName Constant
 hi link htmlArg Constant
 hi link htmlSpecialChar Boolean
 
+" haml
+hi link hamlClass Constant
+hi link hamlId Class
+
 " javascript
 hi link javaScriptFunction Class
 hi link javaScriptRailsFunction Constant
