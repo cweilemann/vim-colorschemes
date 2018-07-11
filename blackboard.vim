@@ -83,6 +83,7 @@ hi link Tag Function
 hi link Typedef         Class
 
 " Ruby
+hi link rubyAssertion Function
 hi link rubyBlock Normal
 hi link rubyBlockParameter Class
 hi link rubyBlockParameter String
